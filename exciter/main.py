@@ -12,7 +12,7 @@ server.setJackMidiInputPortName("midi_in")
 #server.setJackAutoConnectMidiInputPort("midi_capture_2")
 SAMPLING_RATE = server.getSamplingRate()
 
-params = yaml.load(open("params.yaml"))
+params = yaml.load(open("params.yaml"), Loader=yaml.FullLoader)
 print(params)
 adc = Input([0, 1])
 fourband = FourBand(adc)
