@@ -1,6 +1,6 @@
 {
 	"name": "exciter",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Exciter DSP Module",
 	"author": "Evan Graine",
 	"launch_mode": "auto",
