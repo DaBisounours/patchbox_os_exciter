@@ -1,0 +1,17 @@
+{
+	"name": "exciter",
+	"version": "0.1.0",
+	"description": "Exciter DSP Module",
+	"author": "Evan Graine",
+	"launch_mode": "auto",
+	"depends_on": [
+		"jack.service"
+	],
+	"services": [
+	],
+	"scripts": {
+		"install": "install.sh",
+		"launch": "launch.sh",
+		"stop": "stop.sh"
+	}
+}
